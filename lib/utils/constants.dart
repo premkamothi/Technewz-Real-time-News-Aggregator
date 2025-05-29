@@ -1,0 +1,3 @@
+class Constants{
+  static String imgurl='https://www.google.com/imgres?q=image%20of%20alternate%20image%20that%20is%20not%20loaded&imgurl=https%3A%2F%2Fpreview.redd.it%2Fhelp-this-image-couldnt-be-loaded-error-and-i-need-that-v0-71omzkrcy1la1.png%3Fwidth%3D271%26format%3Dpng%26auto%3Dwebp%26s%3Dfe951e015ceb11f9990a1328ad7332d539c2ad8b&imgrefurl=https%3A%2F%2Fwww.reddit.com%2Fr%2FNotion%2Fcomments%2F11etrf9%2Fhelp_this_image_couldnt_be_loaded_error_and_i%2F&docid=VL8jVudd0vVDQM&tbnid=Jn4SgIFqs6cHMM&vet=12ahUKEwidjf7w5MWNAxWGnK8BHeuPE9gQM3oECD8QAA..i&w=271&h=142&hcb=2&ved=2ahUKEwidjf7w5MWNAxWGnK8BHeuPE9gQM3oECD8QAA';
+}
