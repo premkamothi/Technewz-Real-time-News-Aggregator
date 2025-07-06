@@ -5,9 +5,10 @@ import 'package:technewz/utils/key.dart';
 
 
 Future<List> fetchnews({required String query}) async {
-  final query = Searchbar.searchcontroller.text;
   final url = Uri.parse(
-    'https://newsapi.org/v2/top-headlines?country=us&pageSize=100&apiKey=${Apikey.key}&q=$query',
+    'https://newsapi.org/v2/top-headlines?category=technology&pageSize=100'
+        '${query.isNotEmpty ? '&q=$query' : ''}'
+        '&apiKey=${Apikey.key}',
   );
 
   final response = await http.get(url);
@@ -24,3 +25,4 @@ Future<List> fetchnews({required String query}) async {
     throw Exception('HTTP Error: ${response.statusCode}');
   }
 }
+
