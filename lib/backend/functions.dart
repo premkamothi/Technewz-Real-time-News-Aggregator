@@ -1,6 +1,5 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:technewz/components/serachbar.dart';
 import 'package:technewz/utils/key.dart';
 
 

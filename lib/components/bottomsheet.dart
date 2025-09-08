@@ -33,11 +33,14 @@ void showMyBottomSheet(
   );
 }
 
-_launchURL(String url) async {
-  if (await canLaunch(url)) {
-    await launch(url);
-  } else {
-    throw 'Could not launch $url';
+Future<void> _launchURL(String url) async {
+  final Uri uri = Uri.parse(url);
+
+  if (!await launchUrl(
+    uri,
+    mode: LaunchMode.externalApplication, // ensures opening in browser
+  )) {
+    throw Exception('Could not launch $url');
   }
 }
 
