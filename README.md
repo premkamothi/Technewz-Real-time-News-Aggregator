@@ -22,7 +22,7 @@ It provides users with a smooth, modern UI to **search, explore, and read** arti
 ---
 
 ## 🛠 Tech Stack
-- **Flutter & Dart** (Frontend & State Management)
+- **Flutter & Dart**
 - **NewsAPI.org** (News Data Provider)
 - **HTTP Package** (API calls)
 - **Google Fonts** (Custom Typography)
@@ -37,3 +37,16 @@ It provides users with a smooth, modern UI to **search, explore, and read** arti
   <img src="images/22.jpg" height="400"/> &nbsp;&nbsp;
   <img src="images/33.jpg" height="400"/> 
 </p>
+
+---
+## 📚 References
+1. [NewsAPI Documentation](https://newsapi.org/docs)
+2. [Flutter Official Docs](https://docs.flutter.dev/)
+3. [Dart Packages](https://pub.dev/)
+4. [Google Fonts](https://fonts.google.com/)
+
+
+---
+
+## 👨‍💻 Developed By
+- *Prem Kamothi*
